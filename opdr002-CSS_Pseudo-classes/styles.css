@@ -1,0 +1,73 @@
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+header {
+  background-color: darkcyan;
+}
+
+header h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+main {
+  background-color: tan;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  text-align: center;
+}
+
+a.hover:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+a.active:active {
+  color: red;
+  font-style: italic;
+}
+
+a.visited:visited {
+  color: yellow;
+}
+
+input.focus:focus {
+  color: green;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgb(7, 7, 59);
+  color: white;
+  padding: 10px;
+}
+ul {
+  padding: 0;
+}
+
+nav .currentPage {
+  background-color: rgb(117, 141, 172);
+}
+
+nav li {
+  display: inline;
+  padding: 10px 40px;
+}
+
+nav li:first-child {
+  padding-left: 0;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+nav input:focus {
+  border: 4px solid aquamarine;
+  outline: none;
+}
